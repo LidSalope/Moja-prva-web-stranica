@@ -1,0 +1,546 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*background: #FFBA4B no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: rgba(255,187,77,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,187,77,1) 0%, rgba(255,187,77,1) 62%, rgba(240,166,45,1) 74%, rgba(230,153,30,1) 79%, rgba(225,140,5,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,187,77,1)), color-stop(62%, rgba(255,187,77,1)), color-stop(74%, rgba(240,166,45,1)), color-stop(79%, rgba(230,153,30,1)), color-stop(100%, rgba(225,140,5,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,187,77,1) 0%, rgba(255,187,77,1) 62%, rgba(240,166,45,1) 74%, rgba(230,153,30,1) 79%, rgba(225,140,5,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255,187,77,1) 0%, rgba(255,187,77,1) 62%, rgba(240,166,45,1) 74%, rgba(230,153,30,1) 79%, rgba(225,140,5,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255,187,77,1) 0%, rgba(255,187,77,1) 62%, rgba(240,166,45,1) 74%, rgba(230,153,30,1) 79%, rgba(225,140,5,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(255,187,77,1) 0%, rgba(255,187,77,1) 62%, rgba(240,166,45,1) 74%, rgba(230,153,30,1) 79%, rgba(225,140,5,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbb4d', endColorstr='#e18c05', GradientType=1 );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.slika-img
+{
+  height:250px;
+  width:100%;
+}
+.slika-img img
+{
+  max-width:100%; 
+  height: 100%;
+  margin:auto;
+  display:block;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 30px 0;
+}
+@media screen and (max-width: 990px) {
+    .divider {
+    border-style: dotted;
+    border-color: grey;
+    border-bottom: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    }
+}
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+    
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  transition: all .3s ease-out;
+}
+
+.waves-effect .waves-ripple {
+  position: absolute;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 0.7s ease-out;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  pointer-events: none;
+}
+
+.waves-effect.waves-light .waves-ripple {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.waves-effect.waves-red .waves-ripple {
+  background-color: rgba(244, 67, 54, 0.7);
+}
+
+.waves-effect.waves-yellow .waves-ripple {
+  background-color: rgba(255, 235, 59, 0.7);
+}
+
+.waves-effect.waves-orange .waves-ripple {
+  background-color: rgba(255, 152, 0, 0.7);
+}
+
+.waves-effect.waves-purple .waves-ripple {
+  background-color: rgba(156, 39, 176, 0.7);
+}
+
+.waves-effect.waves-green .waves-ripple {
+  background-color: rgba(76, 175, 80, 0.7);
+}
+
+.waves-effect.waves-teal .waves-ripple {
+  background-color: rgba(0, 150, 136, 0.7);
+}
+
+.waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] {
+  border: 0;
+  font-style: normal;
+  font-size: inherit;
+  text-transform: inherit;
+  background: none;
+}
+
+.waves-effect img {
+  position: relative;
+  z-index: -1;
+}
+
+.waves-notransition {
+  transition: none !important;
+}
+
+.waves-circle {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+}
+
+.waves-input-wrapper {
+  border-radius: 0.2em;
+  vertical-align: bottom;
+}
+
+.waves-input-wrapper .waves-button-input {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.waves-circle {
+  text-align: center;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  border-radius: 50%;
+  -webkit-mask-image: none;
+}
+
+.waves-block {
+  display: block;
+}
+
+/* Firefox Bug: link not triggered */
+.waves-effect .waves-ripple {
+  z-index: -1;
+}
+.modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat {
+  float: right;
+  margin: 6px 0;
+}
+.toast .btn, .toast .btn-large, .toast .btn-flat {
+  margin: 0;
+  margin-left: 3rem;
+}
+
+.btn-flat {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-flat {
+  box-shadow: none;
+  background-color: transparent;
+  color: #343434;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.btn-flat:focus, .btn-flat:active {
+  background-color: transparent;
+}
+
+.btn-flat:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
+.btn-flat.disabled {
+  color: #b3b3b3;
+  cursor: default;
+}
+
+.gumb{
+    background-color: #FF8622 !important;
+    border-color: #FF5900 !important;
+    color: white !important;
+    width: 100%;
+    height: 50px;
+}
+
+
+.mailtatin{
+    color: #FF8622;
+}
+
+/*novo*/
+
+#poslovnice{
+    
+}
+
+#kontakt {
+  display: none;
+}
+
+.kontakt{
+  margin-top: 25px;
+}
+
+#narudzba {
+    display: none;
+}
+
+
+#NAH {
+    background-color: #FFD57F;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+#RV {
+    padding-top: 10px;
+}
+#RV2 {
+    padding-top: 75px;
+}
+
+.row.pos{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+
+.col-md-4.divider.text-center{
+    padding-top: 25px;
+}
+
+.col-md-6.divider.text-center{
+  padding-top: 15px;
+}
+.col-md-6.divider.text-center.fb{
+  padding-top: 60px;
+
+}
+
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+
+}
+
+table {
+    width: 100%;
+}
+
+tr:hover{background-color: #FFD57F }
+
+
+.tablica{
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 150px;
+  border-radius: 30px;
+}
+@media screen and (max-width:650px){
+  .tablica{
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+}
+
+.container.pocetna{
+  width: 75%;
+  /*background-image: url("plava2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;*/
+}
+
+#navigacija{
+  margin-bottom: 0px !important;
+}
+
+
+.box.druga{
+  border-radius: 30px;
+  margin-top: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.box.druga.oblak{
+  margin-top: 0px !important;
+
+}
+
+.box.col-lg-12{
+  border-radius: 20px;
+  padding: 15px 15px !important;
+}
+
+.box.col-md-6{
+  border-radius: 20px;
+  margin-top: 5px;
+}
+.col-md-6.o-nama{
+  margin-bottom: 10px;
+}
+#nasa-ponuda{
+  width: 75% !important;
+  margin-left: 10%;
+}
+@media screen and (max-width:650px){
+  #slika-bora{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .box.druga{
+    margin-top: 0px;
+    width: 100%;
+  }
+}
+#map_canvas {
+  height: 300px;
+  width: 100%;
+}
+
+#map_canvas2 {
+  height: 300px;
+  width: 100%;
+}
+
+#result{
+  overflow: auto;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.box.col-lg-12.naslov{
+  margin-top: 0px !important;
+}

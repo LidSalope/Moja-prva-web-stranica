@@ -1,0 +1,1 @@
+$('#result').dialog({height: 300});

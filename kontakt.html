@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Klaonica peradi Salopek</title>
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+
+
+    <!-- Fonts -->
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <script  src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCh5P8KnZH7bPzyAGuvHvU6YQWFuHSyHW4" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <div class="brand">Klaonica peradi Salopek</div>
+    <div class="address-bar">Vlahe Bukovca 2 | Slavonski Brod, 35000 | HR</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Klaonica Peradi Salopek</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html" class="navigacija-tekst">Početna</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="navigacija-tekst">O nama</a>
+                    </li>
+                    <li>
+                        <a href="proizvodi.html" class="navigacija-tekst">Proizvodi</a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html" class="navigacija-tekst">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <! gumbovi za kontakte >
+                <div class="row">
+
+                    <div class="col-sm-5 col-md-6 text-center">
+                        <button type="button" class="gumb waves-effect waves-yellow btn-flat"  id="gm2"><strong>POSLOVNICE</strong></button>
+                    </div>
+                    <div class="col-sm-5 col-md-6 text-center">
+                        <button type="button" class="gumb waves-effect waves-yellow btn-flat " id="gm1"><strong>KONTAKT</strong></button> 
+                    </div>
+                </div>
+                <! Kontakt >
+                <div class="mojekutije" id="kontakt">
+                    <div class="col-md-6 divider text-center">
+                        <p><strong> Vlasnik: </strong>
+                            Zdravko Salopek
+                        </p>
+                        <p><strong>Telefon: </strong>
+                            091 896 0099
+                        </p>
+                        <p><strong>Email:</strong>
+                            <a class="mailtatin" href="mailto:name@.com" >kpsalopek@gmail.com</a>
+                        </p>
+                        <p><strong>Adresa:</strong>
+                            Slavonski Brod
+                            <br>Vlahe Bukovca 2, 35105
+                        </p>
+                    </div>
+                    <div class="col-md-6 divider text-center fb">
+                        <p><strong>Lajkajte nas na našoj facebook stranici!</strong>
+                        <p><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKlaonica-Peradi-Salopek-140302766054357%2F&width=50&layout=button&action=like&show_faces=false&share=true&height=65&appId" width="250" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
+                        
+                    </div>  
+                    <div class="clearfix"></div>
+                </div> <!-- mojekutije #kontakt-->
+                    <div class="mojekutije" id="poslovnice">
+                        <div class="row pos">
+                        <div class="col-md-4 text-center" id="NAH">                        
+                            <p><strong>Naselje Andrije Hebrang</strong>
+                                <br> Blok 3
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center" id="RV">
+                            <p><strong>RADNO VRIJEME:</strong>
+                                <br><u>UTORAK-ČETVRTAK</u>
+                                <br>07:00h-12:00h
+                                <br>15:00h-17:00h
+                                <br><u>PETAK</u>
+                                <br>07:00h-12:00h
+                                <br>15:00h-18:00h
+                                <br><u>SUBOTA</u>
+                                <br>07:00h-12:00h
+                                <br><u>NEDJELJA</u>
+                                <br>07:00h-12:00h
+                            </p>
+                        </div>
+                        <!mapa poslovnice 1>
+                        <div class="col-md-4 text-center" >
+                        <div id="map_canvas2"></div>
+                        </div>
+                        </div>
+                        <div class="row pos">
+                            <div class="col-md-4 text-center" id="NAH">                        
+                            <p><strong>Gradska tržnica (kat)</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center" id="RV2">
+                            <p><strong>RADNO VRIJEME:</strong>
+                                <br><u>PONEDJELJAK-PETAK</u>
+                                <br>07:00h-12:00h
+                                <br><u>SUBOTA</u>
+                                <br>07:00h-14:00h
+                            </p>
+                        </div>
+                        <!mapa poslovnice 1>
+                        <div class="col-md-4 text-center" >
+                        <div id="map_canvas"></div>
+                        </div>
+                        </div>
+                    </div>
+
+            </div> <!-- box closed -->
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Lidija Salopek</p> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/kutije.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+</body>
+
+</html>
